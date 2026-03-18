@@ -27,4 +27,4 @@ jobs:
 
       - name: Verify QR code generation with docker-compose
         run: |
-          docker-compose up --build --exit-code-from qr_code_app
+          docker compose up --build --exit-code-from qr_code_app
